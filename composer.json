@@ -1,0 +1,27 @@
+{
+    "name": "mnykj/mnycms-think-addons",
+    "description": "mnycms的插件依赖",
+    "homepage": "https://github.com/mnykj/mnycms-think-addons",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "八级天",
+            "email": "211983651@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://www.mnykj.com"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "nelexa/zip": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    }
+}
